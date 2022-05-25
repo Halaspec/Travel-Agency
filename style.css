@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.5px solid black;
+}
+
+nav .title {
+    float: left;
+    position: relative;
+    font-size: 2em;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(-40%);
+}
+
+nav ul a {
+    padding-left: 10px;
+    font-size: 0.8em;
+}
+
+.container1{
+    background: url(src/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 .box1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+}
+
+.icone div .p{
+    width: 250px; 
+    transform: translateX(-25%);
+}
+
+.box2 .offre1 div{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box2 .offre2 div {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box3 form input {
+    margin: 5px;
+    padding: 3px 10px;
+}
